@@ -1,0 +1,72 @@
+/* .navbar {
+	padding: ;
+} */
+.navbar-brand,
+.nav-link {
+	color: white;
+}
+
+@media (min-width: 992px) {
+	.navbar-nav {
+		margin-left: 70%;
+	}
+}
+
+.trial {
+	background-color: #993399;
+}
+
+.trial h1,
+.trial h3,
+.trial p {
+	color: white;
+	margin-bottom: 0.5rem;
+}
+.trial p {
+	font-size: 0.7rem;
+}
+
+.trial button {
+	border-radius: 30px;
+	padding: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+
+.btn-planos {
+	background-color: #993399;
+	border-color: white;
+}
+.trial-text {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	padding: 2rem 1rem 2rem 1rem;
+}
+.trial-image {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	height: 100%;
+	padding: 0.5rem 3rem 1rem 2rem;
+}
+
+.premium {
+	padding: 3rem;
+}
+.premium h2 {
+	margin: 0 auto 3rem auto;
+	text-align: center;
+}
+
+.premium .card {
+	text-align: center;
+	width: 20%;
+	display: inline-block;
+	margin: 2%;
+	vertical-align: top;
+	height: 350px;
+}
+
+.planos .card {
+}
