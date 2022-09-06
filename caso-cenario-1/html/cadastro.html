@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Spotify - Cadastro</title>
+		<link rel="icon" href="./../img/spotify.svg" />
+		<link rel="stylesheet" href="./../css/reset.css" />
+		<link
+			rel="stylesheet"
+			href="./../node_modules/bootstrap/dist/css/bootstrap.min.css"
+		/>
+
+		<link rel="stylesheet" href="./../css/cadastro.css" />
+	</head>
+	<body>
+		<header>
+			<h1>
+				<a href="./home.html"
+					><img src="./../img/spotify.svg" alt="Spotify" /> Spotify</a
+				>
+			</h1>
+		</header>
+		<main>
+			<div class="container__form">
+				<form>
+					<div class="mb-3">
+						<label for="exampleInputEmail1" class="form-label"
+							>Qual o seu email?</label
+						>
+						<input
+							type="email"
+							class="form-control"
+							id="exampleInputEmail1"
+							aria-describedby="emailHelp"
+							placeholder="Digite seu email"
+						/>
+					</div>
+					<div class="mb-3">
+						<label for="exampleInputEmail1" class="form-label"></label>Confirme
+						seu email
+						<input
+							type="email"
+							class="form-control"
+							id="exampleInputEmail1"
+							aria-describedby="emailHelp"
+							placeholder="Digite seu email novamente"
+						/>
+					</div>
+					<div class="mb-3">
+						<label for="exampleInputPassword1" class="form-label"
+							>Criar uma senha</label
+						>
+						<input
+							type="password"
+							class="form-control"
+							id="exampleInputPassword1"
+							placeholder="Digite sua senha"
+						/>
+					</div>
+					<div class="mb-3">
+						<label for="exampleInputPassword2" class="form-label"
+							>Criar uma senha</label
+						>
+						<input
+							type="password"
+							class="form-control"
+							id="exampleInputPassword2"
+							placeholder="Digite sua senha novamente"
+						/>
+					</div>
+					<div class="mb-3">
+						<label for="exampleInputDate" class="form-label"
+							>Data de nascimento</label
+						>
+						<input
+							type="date"
+							class="form-control"
+							id="exampleInputDate"
+							placeholder="Digite sua data de nascimento"
+						/>
+					</div>
+					<div class="mb-3">
+						<label for="exampleInputGender" class="form-label">Gênero</label>
+						<select class="form-select" aria-label="Default select example">
+							<option selected>Selecione</option>
+							<option value="1">Feminino</option>
+							<option value="2">Masculino</option>
+							<option value="3">Outro</option>
+						</select>
+					</div>
+					<div class="mb-3 form-check">
+						<input
+							type="checkbox"
+							class="form-check-input"
+							id="exampleCheck1"
+						/>
+						<label class="form-check-label" for="exampleCheck1"
+							>Prefiro não receber mensagens de marketing do Spotify</label
+						>
+					</div>
+					<div class="mb-3 form-check">
+						<input
+							type="checkbox"
+							class="form-check-input"
+							id="exampleCheck1"
+						/>
+						<label class="form-check-label" for="exampleCheck1"
+							>Compartilhar meus dados de registro com os provedores de conteúdo
+							do Spotify para fins de marketing.</label
+						>
+					</div>
+					<div class="mb-3 form-check">
+						<input
+							type="checkbox"
+							class="form-check-input"
+							id="exampleCheck1"
+						/>
+						<label class="form-check-label" for="exampleCheck1"
+							>Eu concordo com os
+							<a href="#">Termos e Condições de Uso do Spotify</a> .</label
+						>
+					</div>
+					<p class="text">
+						Para saber mais sobre como o Spotify coleta, usa, compartilha e
+						protege seus dados pessoais, consulte a
+						<a href="#">Política de Privacidade do Spotify</a> .
+					</p>
+					<button type="submit" class="btn btn-primary">Inscrever-se</button>
+					<p class="text-center">
+						Já tem uma conta? <a href="#">Faça login</a>
+					</p>
+				</form>
+			</div>
+		</main>
+		<footer></footer>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+h1 {
+	margin: 3rem auto;
+	text-align: center;
+}
+h1 a,
+h1 a:hover {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+h1 img {
+	width: 3rem;
+}
+.container__form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.form-check label a,
+.text-center a,
+.text a {
+	color: rgb(29, 185, 84);
+}
+.text {
+	font-size: 0.8rem;
+}
+
+.form-check-input:hover {
+	border-color: rgb(29, 185, 84);
+}
+.btn-primary {
+	background-color: rgb(29, 185, 84);
+	border-color: rgb(29, 185, 84);
+	border-radius: 50px;
+	color: black;
+	font-weight: 600;
+	padding: 1rem 2rem;
+	margin: 0 auto 1rem auto;
+}
