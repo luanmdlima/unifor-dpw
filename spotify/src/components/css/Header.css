@@ -1,10 +1,24 @@
-.navbar-brand,
-.nav-link {
+a.nav-link,
+a.navbar-brand {
 	color: white;
 }
+a.navbar-brand svg {
+	width: 2rem;
+}
 
+a.link-support {
+	/*	color: white;
+	text-decoration: none;
+	padding: 8px;*/
+}
+
+nav.navbar a:hover {
+	color: #1ed760;
+}
+/*
 @media (min-width: 992px) {
 	.navbar-nav {
 		margin-left: 65%;
 	}
 }
+*/ ;

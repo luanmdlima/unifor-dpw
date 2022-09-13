@@ -1,5 +1,5 @@
-h1 {
-	margin: 3rem auto;
+h1.title {
+	margin: 5rem auto 3rem auto;
 	text-align: center;
 }
 h1 a,
@@ -20,7 +20,8 @@ table {
 	margin: 2rem auto;
 }
 
-td {
+td.pergunta,
+td.resposta {
 	border: 1px solid black;
 	padding: 1rem;
 }

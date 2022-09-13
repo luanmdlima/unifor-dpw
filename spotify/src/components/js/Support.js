@@ -1,16 +1,14 @@
 import "./../css/Support.css";
-import Header from "./Header.js";
-import Footer from "./Footer.js";
+import { Link } from "react-router-dom";
 
 export default function Support() {
 	return (
 		<>
-			<Header />
 			<main>
-				<h1>
-					<a href="./home.html">
-						<img src="./../img/spotify.svg" alt="Spotify" /> Spotify
-					</a>
+				<h1 class="title">
+					<Link to="/">
+						<img src="./assets/img/spotify.svg" alt="Spotify" /> Spotify
+					</Link>
 				</h1>
 				<h2>Perguntas Frequentes</h2>
 				<table>
@@ -84,7 +82,6 @@ export default function Support() {
 					</tr>
 				</table>
 			</main>
-			<Footer />
 		</>
 	);
 }
